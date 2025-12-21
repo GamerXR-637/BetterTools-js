@@ -27,6 +27,21 @@ const { "Functions you want to use" } = require("File Path to the "BetterTools" 
 // [See at the end for a list of function]
 ```
 
+npm
+
+```
+npm i bettertools-js
+```
+
+```js
+const { FunctionName } = require("bettertools-js/BetterTools");
+
+// or
+
+const "name" = require("bettertools-js/BetterTools");
+
+```
+
 ## [List of Function](https://github.com/GamerXR-637/BetterTools-js?tab=readme-ov-file#functions-names)
 
 If you use the first option, then the function should be called as
@@ -38,6 +53,7 @@ Due to you are using this option you are importing all the function.
 
 Else, this works fine with the second option
 You will be importing the function that you only need
+
 
 ```JavaScript
 FunctionName(parameters)
