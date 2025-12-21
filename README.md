@@ -27,12 +27,14 @@ const { "Functions you want to use" } = require("File Path to the "BetterTools" 
 // [See at the end for a list of function]
 ```
 
-npm
+# npm
 
+Install with the npm command
 ```
 npm i bettertools-js
 ```
 
+Declare the package
 ```js
 const { FunctionName } = require("bettertools-js/BetterTools");
 
@@ -137,4 +139,5 @@ console.log(seededRandom(37))
 
 
 **cat** - Just Cat | Input: [text]
+
 <br>**load** - Create a loading sign | Input: [message, n]
