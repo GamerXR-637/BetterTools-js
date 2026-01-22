@@ -19,7 +19,7 @@ in you terminal or download the file `BetterTools`
 Second, in your main file, add:
 
 ```JavaScript
-const "name" = require("File Path to the "BetterTools" folder");
+const "name" = require("File Path to the "BetterTools" sub folder");
 // Name can be anything
 //or
 const { "Functions you want to use" } = require("File Path to the "BetterTools" folder");
@@ -36,7 +36,7 @@ npm i bettertools-js
 
 Declare the package
 ```js
-const { FunctionName } = require("bettertools-js/BetterTools");
+const { FunctionNames "," } = require("bettertools-js/BetterTools");
 
 // or
 
@@ -141,3 +141,4 @@ console.log(seededRandom(37))
 **cat** - Just Cat | Input: [text]
 
 <br>**load** - Create a loading sign | Input: [message, n]
+
